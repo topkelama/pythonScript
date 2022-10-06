@@ -4,7 +4,7 @@ import sys
 
 balance_info = {'Tom':23000,'Nancy': 120050, 'Nick':2400,'Kalpana':2500}
 name = input("Enter your name: ")
-name = name.capitalize()
+name = name.capitalize() # if user enters the name with lower case the Capitalize() function will change it to Upper case for first letter.
 if not name in balance_info:
     print("user %s does not exist in the system. "%(name))
     sys.exit(1)
